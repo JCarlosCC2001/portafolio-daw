@@ -1,0 +1,84 @@
+.Contenido .sub_title {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.Contenido .contenedor {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Oculta la barra de desplazamiento por defecto */
+}
+
+.Contenido .contenedor::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.Contenido .contenedor::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.Contenido .Semana {
+    box-sizing: border-box;
+    min-width: 300px;
+    margin: 10px 25px;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Sombra blanca al pasar el mouse */
+    }
+
+    @media (max-width: 768px) {
+        min-width: 200px;
+    }
+
+    @media (max-width: 480px) {
+        min-width: 100%;
+    }
+}
+
+.Contenido .Semana > div {
+    margin-bottom: 10px;
+}
+
+.Contenido .Titulo {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.Contenido button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Contenido .titulo_propiedad {
+    display: none;
+}
+
+.Contenido .titulo_propiedad_active {
+    display: block;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.Contenido .texto_propiedad {
+    display: none;
+}
+
+.Contenido .texto_propiedad_active {
+    display: block;
+    padding: 5px;
+    font-size: 0.9em;
+}

@@ -1,0 +1,68 @@
+.Sobre_Mi {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 50px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.sub_title {
+    color: #3498db;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.i_am {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.imgs {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.photo {
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #3498db;
+}
+
+.redes box-icon {
+    margin-right: 10px;
+}
+
+.me {
+    text-align: center;
+    font-size: 25px;
+}
+
+.img_parrafo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text {
+    width: 60%;
+}
+
+.sub_title h2 {
+    color: #3498db;
+}
+
+.parrafo {
+    line-height: 1.5;
+}
+
+.img_parrafo img {
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid #3498db;
+}

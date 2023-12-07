@@ -1,0 +1,63 @@
+.Reflexiones {
+    margin: 10px 30px;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Reflexiones .Titulo_Reflexiones {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Reflexiones .Sem_Conten {
+    border: 2px solid #fff;
+    display: flex;
+    }
+
+.Reflexiones .Semanas {
+    border: 2px solid #fff;
+    margin: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Reflexiones .Semana {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Reflexiones .Contenidos {
+    width: 83%;
+    border: 2px solid #fff;
+    margin: 10px 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.Reflexiones .Titulo_Contenido_Active {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Reflexiones .Titulo_Contenido {
+    display: none;
+}
+
+.Reflexiones .Contenido_Active {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.Reflexiones .Contenido {
+    display: none;
+}
