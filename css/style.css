@@ -1,5 +1,6 @@
 * {
     color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
 }
 /*estilo de toda la pagina*/
 body {
@@ -9,6 +10,57 @@ body {
     color: #ffffff; /* Establece el color de texto en blanco */
 }
 
+/*estilo de navegador*/
+li.Navegador {
+    color: ffffff;
+    margin: 0px 50px;
+    cursor: pointer;
+}
 
 /*estilo de los textos generales*/
+p.TituloGeneral {
+    color: #ffffff;
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+    line-height: 1.5;
+    margin: 0;
+}
 
+p.Titulo {
+    color: #3498db;
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px 10px;
+}
+p.SubTitulo {
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 10px 10px;
+}
+p.Texto {
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 10px 10px;
+}
+
+p.TituloPequeño {
+    color: #3498db;
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px 10px;
+}
+p.SubTituloPequeño {
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 10px 10px;
+}
+p.TextoPequeño {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 10px 10px;
+}

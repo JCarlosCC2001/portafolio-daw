@@ -1,12 +1,12 @@
-import { Semanas } from './Semanas.js';
+import { info } from './info.js';
 
 const Selec_Contenido = document.querySelector(".Reflexion");
 
 const Contenedor = document.createElement("div");
 Contenedor.className = "Reflexiones";
 
-const Titulo = document.createElement("div");
-Titulo.className = "Titulo_Reflexiones";
+const Titulo = document.createElement("p");
+Titulo.className = "Titulo";
 Titulo.textContent = "Reflexiones";
 const Sem_Conten = document.createElement("div");
 Sem_Conten.className = "Sem_Conten";
@@ -20,8 +20,8 @@ Contenido.className = "Contenidos";
 Sem_Conten.append(C_Semanas);
 Sem_Conten.append(Contenido);
 
-for (var semana in Semanas) {
-    if (Semanas.hasOwnProperty(semana)) {
+for (var semana in info.Contenido) {
+    if (info.Contenido.hasOwnProperty(semana)) {
         //Botones por semana
         const Semana = document.createElement("button");
         Semana.className = "Semana";
@@ -40,7 +40,7 @@ for (var semana in Semanas) {
         const Contenido_1 = document.createElement("p");
         Contenido_1.className = "Contenido";
         Contenido_1.id = semana
-        Contenido_1.textContent = Semanas[semana]["¿Qué aprendió?"];
+        Contenido_1.textContent = info.Contenido[semana]["¿Qué aprendió?"];
 
 
         const Titulo_Contenido_2 = document.createElement("p");
@@ -51,7 +51,7 @@ for (var semana in Semanas) {
         const Contenido_2 = document.createElement("p");
         Contenido_2.className = "Contenido";
         Contenido_2.id = semana
-        Contenido_2.textContent = Semanas[semana]["¿Cómo aprendió?"];
+        Contenido_2.textContent = info.Contenido[semana]["¿Cómo aprendió?"];
 
 
         C_Semanas.appendChild(Semana);

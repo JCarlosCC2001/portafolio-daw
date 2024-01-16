@@ -55,14 +55,6 @@ var Semanas = {
         "¿Qué aprendió?": "text_text_text",
         "¿Cómo aprendió?": "text_text_text",
     },
-    "SEMANA 8": {
-        "Titulo": "text_text_text",
-        "Definiciones": "text_text_text",
-        "Procedimiento": "text_text_text",
-        "Resultados": "text_text_text",
-        "¿Qué aprendió?": "text_text_text",
-        "¿Cómo aprendió?": "text_text_text",
-    },
     "SEMANA 9": {
         "Titulo": "text_text_text",
         "Definiciones": "text_text_text",
@@ -104,6 +96,14 @@ var Semanas = {
         "¿Cómo aprendió?": "text_text_text",
     },
     "SEMANA 14": {
+        "Titulo": "text_text_text",
+        "Definiciones": "text_text_text",
+        "Procedimiento": "text_text_text",
+        "Resultados": "text_text_text",
+        "¿Qué aprendió?": "text_text_text",
+        "¿Cómo aprendió?": "text_text_text",
+    },
+    "SEMANA 15": {
         "Titulo": "text_text_text",
         "Definiciones": "text_text_text",
         "Procedimiento": "text_text_text",
